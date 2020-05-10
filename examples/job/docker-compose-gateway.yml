@@ -18,7 +18,7 @@ services:
       - MESSAGEMAN_URL=http://messageman:8015
 
   messageman:
-    image: messageman
+    image: turgayozgur/messageman
     ports:
       - "8020:8015"
     networks:
